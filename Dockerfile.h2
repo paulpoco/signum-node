@@ -30,5 +30,5 @@ RUN rm signum-node.exe 2> /dev/null || true
 RUN rm signum-node.zip 2> /dev/null || true
 RUN rm -rf tmp 2> /dev/null || true
 
-EXPOSE 8125 8123 7123 6876
+EXPOSE 8125 8123
 ENTRYPOINT [ "./start-node.sh" ]
